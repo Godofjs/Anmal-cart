@@ -78,11 +78,11 @@ span {
     bottom: 0%;
     text-align: center;
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 0% !important;
     margin-left: 2% !important;
   }
 }
-@media screen and (max-width: 375px) and (max-height: 667px) {
+@media screen and (max-width: 375px) and (min-width: 321px) and (max-height: 667px) {
   .cont {
     position: fixed;
     bottom: 0%;
